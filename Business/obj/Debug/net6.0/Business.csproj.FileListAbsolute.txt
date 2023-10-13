@@ -1,0 +1,15 @@
+C:\Users\mahmoud.kassem\source\repos\EmploymentApp\Business\bin\Debug\net6.0\Business.deps.json
+C:\Users\mahmoud.kassem\source\repos\EmploymentApp\Business\bin\Debug\net6.0\Business.dll
+C:\Users\mahmoud.kassem\source\repos\EmploymentApp\Business\bin\Debug\net6.0\Business.pdb
+C:\Users\mahmoud.kassem\source\repos\EmploymentApp\Business\bin\Debug\net6.0\DataLayer.dll
+C:\Users\mahmoud.kassem\source\repos\EmploymentApp\Business\bin\Debug\net6.0\DataLayer.pdb
+C:\Users\mahmoud.kassem\source\repos\EmploymentApp\Business\obj\Debug\net6.0\Business.csproj.AssemblyReference.cache
+C:\Users\mahmoud.kassem\source\repos\EmploymentApp\Business\obj\Debug\net6.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mahmoud.kassem\source\repos\EmploymentApp\Business\obj\Debug\net6.0\Business.AssemblyInfoInputs.cache
+C:\Users\mahmoud.kassem\source\repos\EmploymentApp\Business\obj\Debug\net6.0\Business.AssemblyInfo.cs
+C:\Users\mahmoud.kassem\source\repos\EmploymentApp\Business\obj\Debug\net6.0\Business.csproj.CoreCompileInputs.cache
+C:\Users\mahmoud.kassem\source\repos\EmploymentApp\Business\obj\Debug\net6.0\Business.csproj.CopyComplete
+C:\Users\mahmoud.kassem\source\repos\EmploymentApp\Business\obj\Debug\net6.0\Business.dll
+C:\Users\mahmoud.kassem\source\repos\EmploymentApp\Business\obj\Debug\net6.0\refint\Business.dll
+C:\Users\mahmoud.kassem\source\repos\EmploymentApp\Business\obj\Debug\net6.0\Business.pdb
+C:\Users\mahmoud.kassem\source\repos\EmploymentApp\Business\obj\Debug\net6.0\ref\Business.dll

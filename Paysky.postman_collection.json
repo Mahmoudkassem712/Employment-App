@@ -1,0 +1,221 @@
+{
+	"info": {
+		"_postman_id": "2d0b0699-4ae5-41c7-a9b2-0852cd912436",
+		"name": "Paysky",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:5264/api/Employer/AddVacancy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"VacancyDescription\":\"Good Oppotunity as PhP Developer in PaySky.\",\r\n    \"VacancyTitle\" : \"PhP Developer.\",\r\n    \"EmployerId\":\"1\",\r\n    \"ExpiryDate\": \"2023-06-12\",\r\n    \"MaximumNumberForApplicants\":10,\r\n    \"IsActive\":true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5264/api/Employer/AddVacancy",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5264",
+					"path": [
+						"api",
+						"Employer",
+						"AddVacancy"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5264/api/Employer/UpdateVacancy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Id\":6,\r\n    \"VacancyDescription\":\"Good Oppotunity as Php Developer in PaySky.\",\r\n    \"VacancyTitle\" : \"Senior Php Developer.\",\r\n    \"EmployerId\":\"1\",\r\n    \"ExpiryDate\": \"2023-06-11\",\r\n    \"MaximumNumberForApplicants\":10,\r\n    \"IsActive\":true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5264/api/Employer/UpdateVacancy",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5264",
+					"path": [
+						"api",
+						"Employer",
+						"UpdateVacancy"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5264/api/Employer/DeactivateVacancy/6",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5264/api/Employer/DeactivateVacancy/6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5264",
+					"path": [
+						"api",
+						"Employer",
+						"DeactivateVacancy",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5264/api/Employer/DeleteVacancy/6",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5264/api/Employer/DeleteVacancy/6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5264",
+					"path": [
+						"api",
+						"Employer",
+						"DeleteVacancy",
+						"6"
+					],
+					"query": [
+						{
+							"key": "Id",
+							"value": "2",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5264/api/Applicant/Search-Vacancy?Term=DotNet",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5264/api/Applicant/Search-Vacancy?Term=DotNet",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5264",
+					"path": [
+						"api",
+						"Applicant",
+						"Search-Vacancy"
+					],
+					"query": [
+						{
+							"key": "Term",
+							"value": "DotNet"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5264/api/Applicant/ApplyVacancy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"VacancyId\":7,\r\n    \"ApplicantId\":2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5264/api/Applicant/ApplyVacancy",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5264",
+					"path": [
+						"api",
+						"Applicant",
+						"ApplyVacancy"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5264/api/Employer/ShowApplicants/7",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5264/api/Employer/ShowApplicants/7",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5264",
+					"path": [
+						"api",
+						"Employer",
+						"ShowApplicants",
+						"7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5264/api/Employer/PostVacancy/7",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5264/api/Employer/PostVacancy/7",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5264",
+					"path": [
+						"api",
+						"Employer",
+						"PostVacancy",
+						"7"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
